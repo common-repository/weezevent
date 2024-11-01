@@ -1,0 +1,38 @@
+.wrap>h2:first-child {
+    margin-bottom: 10px;
+}
+.wz-card {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border: 1px solid #D3D3D3;
+    margin-bottom: 15px;
+}
+.wz-card form[name="wz-form"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.wz-card form[name="wz-form"] .form-field{
+    margin-bottom: 10px;
+}
+
+.wz-card form[name="wz-form"] .form-field label {
+    display: block;
+}
+
+.wz-card ul {
+    list-style: inside;
+}
+
+textarea {
+    margin-top: 10px;
+}
+.helper {
+    color: #D3D3D3;
+    font-size: 12px;
+}
+
+.checkbox-block {
+    display: flex;
+    align-items: flex-end;
+}
